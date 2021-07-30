@@ -9,6 +9,10 @@
 // The algorithm runs through #1 and #2 in a loop through the array
 // After that, the algorithm again runs through the loop and performs #3
 //
+// Reasoning is
+//   #1 is 1 swap with ordering two entries and leave 0 unordered
+//   #2 is 2 swaps that order 2 entries and leave 1 unordered
+//   #3 is 2 swaps that potentially leaves 2 unordered
 
 package main
 
