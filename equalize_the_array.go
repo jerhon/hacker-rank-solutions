@@ -10,7 +10,6 @@
 package main
 
 func equalizeArray(arr []int32) int32 {
-	// Write your code here
 
 	counts := make(map[int32]int)
 	for _, val := range arr {
